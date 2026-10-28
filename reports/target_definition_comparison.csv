@@ -1,0 +1,5 @@
+definition,positive_cases,negative_cases,positive_percentage,negative_percentage
+Zero future sales,4182,166322,2.45,97.55
+Fewer than 4 future units,8306,162198,4.87,95.13
+Fewer than 10 future units,20030,150474,11.75,88.25
+Fewer than 20 future units,40517,129987,23.76,76.24

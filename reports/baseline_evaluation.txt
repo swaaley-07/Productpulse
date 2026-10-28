@@ -1,0 +1,23 @@
+Sales Longevity Baseline Evaluation
+========================================
+Training dates: 2012-06-12 00:00:00 to 2014-08-21 00:00:00
+Testing dates: 2015-03-09 00:00:00 to 2015-09-25 00:00:00
+Training rows: 112887
+Testing rows: 57617
+
+                     precision    recall  f1-score   support
+
+   20+ future units       0.95      0.77      0.85     44108
+Fewer than 20 units       0.54      0.88      0.67     13509
+
+           accuracy                           0.79     57617
+          macro avg       0.74      0.82      0.76     57617
+       weighted avg       0.86      0.79      0.81     57617
+
+Confusion matrix:
+[[33844 10264]
+ [ 1653 11856]]
+
+Balanced accuracy: 0.8225
+PR-AUC (average precision): 0.7268
+ROC-AUC: 0.8987

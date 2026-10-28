@@ -1,0 +1,23 @@
+FINAL CANDIDATE EVALUATION
+
+                            precision    recall  f1-score   support
+
+          20+ future units       0.94      0.86      0.90     22269
+Fewer than 20 future units       0.63      0.81      0.71      6727
+
+                  accuracy                           0.85     28996
+                 macro avg       0.78      0.83      0.80     28996
+              weighted avg       0.87      0.85      0.85     28996
+
+Confusion matrix:
+[[19114  3155]
+ [ 1300  5427]]
+
+Summary metrics:
+held_out_date: 2015-09-25
+training_rows: 141508
+test_rows: 28996
+balanced_accuracy: 0.8325360759276467
+f1: 0.708994708994709
+pr_auc: 0.7846978882382954
+roc_auc: 0.9095565203612681
